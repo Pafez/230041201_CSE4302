@@ -13,4 +13,4 @@ int main() {
     cout << "Sum = " << (a*d+b*c) << '/' << (b*d);
 
     return 0;
-}
+} 
