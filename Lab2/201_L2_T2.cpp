@@ -27,7 +27,7 @@ int main() {
         return 0;
     }
 
-    switch (work)
+    switch (a)
     {
     case laborer:
         cout << "Employee type is laborer.";
