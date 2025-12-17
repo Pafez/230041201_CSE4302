@@ -94,8 +94,8 @@ public:
     friend ostream operator<<(ostream out, StopWatch watch) {
         string buff;
         buff += to_string(watch.hours/10) + to_string(watch.hours%10) + ":";
-        buff += to_string(watch.hours/10) + to_string(watch.hours%10) + ":";
-        buff += to_string(watch.hours/10) + to_string(watch.hours%10) + ":";
+        buff += to_string(watch.minutes/10) + to_string(watch.minutes%10) + ":";
+        buff += to_string(watch.seconds/10) + to_string(watch.seconds%10);
         cout << buff;
     }
     friend void operator>>(istream in, StopWatch watch) {
